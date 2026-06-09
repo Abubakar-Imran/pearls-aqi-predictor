@@ -2,9 +2,8 @@ numpy
 pandas
 hopsworks
 pyyaml
-dotenv
+python-dotenv
 pyarrow
-confluent-kafka
 joblib
 matplotlib
 shap
