@@ -1,0 +1,26 @@
+city:
+  name: "Islamabad"
+  country: "Pakistan"
+  latitude: 33.6844
+  longitude: 73.0479
+  aqicn_station: "@517168"
+  aqicn_station_rwp: "@517168"
+
+feature_store:
+  project_name: "pearls_aqi_pred"
+  feature_group_name: "aqi_features"
+  feature_group_version: 1
+  target_group_name: "aqi_targets"
+
+model:
+  name: "aqi_predictor"
+  forecast_horizon_days: 3
+  lookback_hours: 48
+
+aqi_thresholds:
+  good: 50
+  moderate: 100
+  unhealthy_sensitive: 150
+  unhealthy: 200
+  very_unhealthy: 300
+  hazardous: 500

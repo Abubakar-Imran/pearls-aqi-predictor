@@ -1,0 +1,13 @@
+numpy
+pandas
+hopsworks
+pyyaml
+dotenv
+pyarrow
+confluent-kafka
+joblib
+matplotlib
+shap
+xgboost
+streamlit
+plotly
