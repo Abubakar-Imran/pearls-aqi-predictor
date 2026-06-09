@@ -1,6 +1,6 @@
 numpy
 pandas
-hopsworks
+hopsworks[python]==4.7.*
 pyyaml
 python-dotenv
 pyarrow
