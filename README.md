@@ -10,13 +10,6 @@
 *Developed by **Abubakar Imran** as part of the*
 **10 Pearls Shine Internship Program — Cohort 8 | Data Sciences**
 
----
-
-[![Feature Pipeline](https://github.com/Abubakar-Imran/pearls-aqi-predictor/actions/workflows/feature_pipeline.yml/badge.svg)](https://github.com/Abubakar-Imran/pearls-aqi-predictor/actions/workflows/feature_pipeline.yml)
-[![Training Pipeline](https://github.com/Abubakar-Imran/pearls-aqi-predictor/actions/workflows/training_pipeline.yml/badge.svg)](https://github.com/Abubakar-Imran/pearls-aqi-predictor/actions/workflows/training_pipeline.yml)
-[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 </div>
 
 ---
@@ -779,12 +772,3 @@ docker run -p 8501:8501 --env-file .env pearls-aqi-predictor
 
 ---
 
-<div align="center">
-
----
-
-*Built by **Abubakar Imran** · Data Sciences · 10 Pearls Shine Internship Program — Cohort 8*
-
-*Forecasting cleaner air for Islamabad & Rawalpindi 🇵🇰*
-
-</div>
