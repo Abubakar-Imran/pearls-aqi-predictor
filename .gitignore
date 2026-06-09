@@ -27,3 +27,6 @@ data/backfill_preview.csv
 .DS_Store
 Thumbs.db
 desktop.ini
+
+aqi_completion_plan.md 
+IMPLEMENTATION_STATUS.md 
