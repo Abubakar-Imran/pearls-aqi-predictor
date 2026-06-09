@@ -60,9 +60,9 @@ def get_secret(name: str) -> str:
 
 def classify_aqi(value: float) -> tuple:
     try:
-        numeric = float(value)
+        numeric = round(float(value))
     except (TypeError, ValueError):
-        numeric = 0.0
+        numeric = 0
     for lo, hi, label, color, advice in AQI_LEVELS:
         if lo <= numeric <= hi:
             return label, color, advice
