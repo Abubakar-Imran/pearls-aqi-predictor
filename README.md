@@ -52,7 +52,7 @@ Air quality in Pakistan's twin cities has become a critical public health issue.
 The dashboard is deployed publicly at:
  
 ```
-https://your-app-name.streamlit.app
+[https://your-app-name.streamlit.app](https://pearls-aqi-predictor-abubakar.streamlit.app/)
 ```
  
 > Replace the URL above with your actual Streamlit Community Cloud deployment URL after deploying.
