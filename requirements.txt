@@ -6,6 +6,8 @@ python-dotenv
 pyarrow
 joblib
 matplotlib
+seaborn
+statsmodels
 shap
 xgboost
 streamlit
