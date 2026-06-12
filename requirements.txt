@@ -1,6 +1,6 @@
 numpy
 pandas
-hopsworks[python]==4.7.*
+hopsworks[python]==5.0.*
 confluent-kafka
 pyyaml
 python-dotenv
