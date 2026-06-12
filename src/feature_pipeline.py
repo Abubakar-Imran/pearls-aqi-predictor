@@ -173,7 +173,13 @@ def store_features(feature_row: dict):
     for col in int_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce").round(0)
         df[col] = df[col].apply(lambda v: int(v) if pd.notna(v) else None)
-    fg.insert(df, write_options={"wait_for_job": False})
+    fg.insert(
+        df,
+        write_options={
+            "wait_for_job": False,
+            "start_offline_materialization": False,
+        },
+    )
     print(f"[OK] Features stored at {feature_row['timestamp']}")
 
 
